@@ -2,7 +2,7 @@
 
 **A host-only rules-enforcement mod for Shift ’N Seek in Among Us.** Only the host installs the mod; other players can join with an unmodified game client.
 
-**Current release: v0.3.12** — tested in multiplayer by the project maintainer.
+**Latest release: v0.3.12**
 
 > **Compatibility:** Among Us **2026.9.29**, **Windows Steam (64-bit)**, **BepInEx 6 Unity IL2CPP (Windows x64)**. Other Among Us versions, storefronts, and operating systems are **not yet verified**. Game updates can break the mod.
 
@@ -46,7 +46,7 @@ Among Us/
 ├── Among Us.exe
 ├── BepInEx/
 │   ├── core/
-│   ├── interop/                 (created at first startup)
+│   ├── interop/
 │   └── plugins/
 │       └── SNSHostRules.dll    <-- install the release asset here
 ├── ... BepInEx loader files ...
